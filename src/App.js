@@ -10,7 +10,7 @@ import Service from './components/Service/Service';
 function App() {
   return (
     <div>
-      <h1>starting page</h1>
+      
       <Router>
         <Header></Header>
           <Switch>

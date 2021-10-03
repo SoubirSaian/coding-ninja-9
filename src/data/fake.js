@@ -1,0 +1,110 @@
+const course = [
+    {
+        id : 101,
+        name : 'Data Structure',
+        mentor: 'Hasnain Heickal',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZ3JFpC3iDEyFkoKpR4QVW1hBt74zsI_4YQ&usqp=CAU',
+        time : '6 months',
+        fees : 7000,
+        rating : 4.6,
+        totalRating : 456,
+        problem : '300 plus problem',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 102,
+        name : 'Algorithm',
+        mentor: 'Thomas Coreman',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv0kIb0hqqiunz90wRprpku0xYp2Bb3GlfLQ&usqp=CAU',
+        time : '6 months',
+        fees : 7000,
+        rating : 4.8,
+        totalRating : 567,
+        problem : '300 plus problem',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 105,
+        name : 'Web Development',
+        mentor: 'Jhankar Mahboob',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDKIcDlqAh_YlVF-3q0TUJdHwit7y42ZuSA&usqp=CAU',
+        time : '4 months',
+        fees : 5500,
+        rating : 4.9,
+        totalRating : 889,
+        problem : '15 plus project',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 108,
+        name : 'Java Programming',
+        mentor: 'A N M Bazlur Rahman',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTyg1ypb3TiEM39HrFp7vkB-lxSNvXbjl5Q&usqp=CAU',
+        time : '4 months',
+        fees : 5000,
+        rating : 4.4,
+        totalRating : 346,
+        problem : '15 plus project',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 110,
+        name : 'Data Science',
+        mentor: 'Rafiul Sabbir',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnSgYts8WswWw2lZP_4dgUgscvT5q4ZrFMpw&usqp=CAU',
+        time : '6 months',
+        fees : 4000,
+        rating : 4.4,
+        totalRating : 219,
+        problem : '100 plus case study',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 119,
+        name : 'C Programming',
+        mentor: 'Tamim Shahriar subeen',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFNNKOV5hqbrtHahriK-tINSKI1VWCniGbQQ&usqp=CAU',
+        time : '3 months',
+        fees : 4000,
+        rating : 4.6,
+        totalRating : 516,
+        problem : '100 plus problems',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 123,
+        name : 'Machine Learning',
+        mentor: 'Rakibul Hasan',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZc_PTpvBRL66czmsoFIqQhIpsE7sI71vIGA&usqp=CAU',
+        time : '4 months',
+        fees : 7000,
+        rating : 4.5,
+        totalRating : 241,
+        problem : '20 plus project',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 129,
+        name : 'Android Development',
+        mentor: 'R Sridhar',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIieOhOXj2ni5OXTubTeCq3I9TRy1ElNPmlQ&usqp=CAU',
+        time : '4 months',
+        fees : 8000,
+        rating : 4.2,
+        totalRating : 379,
+        problem : '20 plus project',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    },
+    {
+        id : 156,
+        name : 'Python Programming',
+        mentor: 'Kolluri Anudeep',
+        img : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH8aM0ME6xh9JVpHhifVNhJVlte5-r6Pei6g&usqp=CAU',
+        time : '4 months',
+        fees : 5000,
+        rating : 4.6,
+        totalRating : 257,
+        problem : '100 plus problems',
+        description : 'All top product companies including FAANG will test your skills in data structures and algorithmsAll top product companies including FAANG will test your skills in data structures and algorithms'
+    }
+]
