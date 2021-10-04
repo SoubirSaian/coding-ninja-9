@@ -1,11 +1,34 @@
 
-
-.card{
-    border: 2px solid goldenrod;
-    border-radius: 10px;
-
+ .course{
+     margin: 15px;
+     padding: 5px;
+     /* border: 1px solid #39458a; */
+     border-radius: 10px;
+     box-shadow: 5px 5px 15px #39458a;
+     /* color: #39458a; */
+ }
+ .card-img{
+     width: 350px;
+     height: 300px;
+ }
+ .course h3{
+    color: #39458a;
+    border-bottom: 1px solid #39458a;
 }
-.card img{
-    width: 200px;
-    height: 150px;
+.rating-star{
+    color: #eba63f;
 }
+.rating-point{
+    color: #eba63f;
+}
+
+.course h3{
+    color: #161f6d;
+}
+.course h6{
+    color: #00abe1;
+}
+.course .problem-h{
+    color: #9e15bf;
+}
+

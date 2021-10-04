@@ -1,7 +1,32 @@
 
-
-.display-course{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 15px;
+.top-banner{
+    height: 300px;
+    background-image: linear-gradient(white,#4a5fc1);
 }
+ 
+.btn-regular{
+    border-radius: 10px;
+    margin: 5px;
+    padding : 10px 15px;
+    background-color: #39458a;
+    color: blanchedalmond;
+    font-weight: 600;
+}
+.btn-regular:hover{
+    background-color: #4a5fc1 ;
+}
+
+
+.course-text{
+    width: 20%;
+    margin: 20px auto;
+    color: #4a5fc1;
+    font-weight: bolder;
+}
+
+/* .display-course{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+} */
+

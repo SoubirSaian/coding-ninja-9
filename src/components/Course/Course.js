@@ -1,14 +1,30 @@
 import React from 'react';
+import Rating from 'react-rating';
 import './Course.css';
 
 const Course = (props) => {
     console.log(props);
-    const { name,img } = props.course;
+    const { img,name,mentor,rating,fees,totalRating,time,problem } = props.course;
     return (
-        <div className="card">
-            <img src={img} alt="" />
-            <h2>{name}</h2>
-        </div>
+       <div className="col">
+            <div className="course">
+                <div className="card h-100 d-flex flex-column justify-content-center align-items-center">
+                   <img src={img} className="card-img-top card-img" alt="" />
+                   <h3>{name}</h3>
+                    <h4>{mentor}</h4>
+                    <Rating 
+                        initialRating={rating}
+                        emptySymbol="far fa-star rating-star"
+                        fullSymbol="fas fa-star rating-star"
+                        readonly
+                    >
+                    </Rating>
+                     
+                    <h6>{time}</h6>
+                    <h6 className="problem-h">{problem}</h6>
+                </div>
+            </div>
+       </div>
     );
 };
 

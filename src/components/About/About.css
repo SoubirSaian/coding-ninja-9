@@ -1,0 +1,14 @@
+
+.about-page{
+    margin-top: 50px;
+}
+
+.about-page li{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #39458a;
+}
+.about-page p{
+    color: #373833;
+    font-size: 16px;
+}

@@ -1,18 +1,33 @@
 .nav-bar{
     display: flex;
     justify-content: space-around;
+    background-color: #f7f7f7;
+}
+.navbar-img img{
+    padding-top: 15px;
+    width: 75%;
+    height: 60%;
 }
 .nav-bar ul{
     display: flex;
 }
 .nav-bar ul li{
     list-style-type: none;
-    padding: 10px 18px;
-    background-color: brown;
+    padding: 15px 3px;
+}
+.nav-bar ul li:hover{
+    background-color: #4a5fc1 ;
+    color:white;
+    border-radius: 10px;
 }
 .nav-bar ul li a{
+    padding: 5px 15px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: bold;
+}
+ 
+.nav-bar ul li a:hover{
+    color: white;
 }

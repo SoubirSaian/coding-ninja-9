@@ -1,0 +1,32 @@
+
+
+.course-detail{
+    height: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #39458a;
+}
+.course-detail img{
+    margin-bottom: 10px;
+}
+.course-detail h3{
+    color: #39458a;
+    border-bottom: 1px solid #39458a;
+}
+.rating-star{
+    color: #eba63f;
+}
+.rating-point{
+    color: #eba63f;
+}
+
+.course-detail h3{
+    color: #161f6d;
+}
+.course-detail h6{
+    color: #00abe1;
+}
+.course-detail .problem-h{
+    color: #9e15bf;
+}
+
