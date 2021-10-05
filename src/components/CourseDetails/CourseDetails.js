@@ -2,9 +2,12 @@ import React from 'react';
 import Rating from 'react-rating';
 import './CourseDetails.css';
 
+// service page course displaying 
+
 const CourseDetails = (props) => {
-    console.log(props);
+    //   destructuring fake data 
     const {description,fees,img,mentor,name,problem,rating,time,totalRating} = props.course;
+
     return (
         <div className="col">
             <div className="course-detail">
@@ -12,6 +15,7 @@ const CourseDetails = (props) => {
                     <img src={img} alt="" />
                     <h3>{name}</h3>
                     <h4>{mentor}</h4>
+                    {/* display dynamic rating  */}
                     <Rating 
                         initialRating={rating}
                         emptySymbol="far fa-star rating-star"
@@ -25,9 +29,7 @@ const CourseDetails = (props) => {
                     <h6 className="problem-h">{problem}</h6>
                     <p>{description}</p>
                 </div>
-
-            </div>
-            
+            </div> 
         </div>
     );
 };

@@ -1,33 +1,33 @@
+ 
+ /* navbar style  */
+
 .nav-bar{
+    background-color: #f7f7f7;
     display: flex;
     justify-content: space-around;
-    background-color: #f7f7f7;
+    align-items: center;
 }
 .navbar-img img{
-    padding-top: 15px;
-    width: 75%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
 }
 .nav-bar ul{
     display: flex;
 }
 .nav-bar ul li{
     list-style-type: none;
-    padding: 15px 3px;
-}
-.nav-bar ul li:hover{
-    background-color: #4a5fc1 ;
-    color:white;
-    border-radius: 10px;
+    border-right: 2px solid #4a5fc1;
+    cursor: pointer;
 }
 .nav-bar ul li a{
-    padding: 5px 15px;
     text-decoration: none;
-    color: black;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    margin: 3px 3px;
+    padding: 15px 20px;
 }
- 
 .nav-bar ul li a:hover{
+    background-color: #4a5fc1;
     color: white;
+    border-radius: 5px;
 }

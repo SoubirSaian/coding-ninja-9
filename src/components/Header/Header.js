@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import img from '../../images/R.png';
 import './Header.css';
 
-const Header = () => {
+    //    navigation bar and logo
     
+const Header = () => {
     return (
             <nav className="nav-bar">
                 <div className="navbar-img">

@@ -1,12 +1,16 @@
 import React from 'react';
 import './Footer.css';
 
+//    footer section 
+
 const Footer = () => {
     return (
         <div className="footer row row-cols-1 row-cols-md-2">
             <div className="col d-flex flex-column justify-content-center align-items-center">
                 <h5>follow us on :</h5>
+                        {/* social media icon  */}
                 <span><i class="fab fa-facebook-square social-icon"></i><i class="fab fa-twitter-square social-icon"></i><i class="fab fa-instagram-square social-icon"></i><i class="fab fa-youtube-square social-icon"></i><i class="fab fa-linkedin social-icon"></i></span>
+
                 <p>Coding ninjas &copy; 2021</p>
  
             </div>

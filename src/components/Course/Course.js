@@ -2,9 +2,12 @@ import React from 'react';
 import Rating from 'react-rating';
 import './Course.css';
 
+//    home page fake data 
+
 const Course = (props) => {
-    console.log(props);
-    const { img,name,mentor,rating,fees,totalRating,time,problem } = props.course;
+    //  data destructuring 
+    const { img,name,mentor,rating,time,problem } = props.course;
+
     return (
        <div className="col">
             <div className="course">

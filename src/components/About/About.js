@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css';
+      
+    //   about page 
 
 const About = () => {
     return (
@@ -38,7 +40,7 @@ const About = () => {
                     <p>Get a Premium Hirist Account on achieving more than 90% in any one of Data & Development, Interview Prep or Foundation courses</p>
                 </div>
             
-        </div>
+            </div>
         </div>
     );
 };

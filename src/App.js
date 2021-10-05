@@ -6,7 +6,8 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Service from './components/Service/Service';
-import Testimonials from './Testimonials/Testimonials';
+import Testimonials from './components/Testimonials/Testimonials';
+
 
 function App() {
   return (
